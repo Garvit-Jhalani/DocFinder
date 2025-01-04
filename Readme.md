@@ -32,7 +32,7 @@ This repository contains the implementation of a Search Application that allows 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/search-application.git
+   git clone https://github.com/Garvit-Jhalani/DocFinder.git
    cd search-application
    ```
 
@@ -49,7 +49,7 @@ This repository contains the implementation of a Search Application that allows 
 
 ## Usage
 
-1. Open the application in your browser at `http://localhost:3000`.
+1. Open the application in your browser at `http://localhost:5173`.
 2. Use the search bar to enter a query and press the search button.
 3. View the search results below the search interface.
 
