@@ -1,5 +1,11 @@
 # DocFinder
 
+
+
+https://github.com/user-attachments/assets/bd8592c5-d1f3-4f75-8318-03b410c834b6
+
+
+
 This repository contains the implementation of a Search Application that allows users to search for machine manuals and view the results in a user-friendly interface. The User can upload the scanned pdfs as well as the png files and can search for machine manuals.
 
 ## Features
