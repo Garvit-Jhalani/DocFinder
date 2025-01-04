@@ -1,6 +1,6 @@
 # DocFinder
 
-This repository contains the implementation of a Search Application that allows users to search for machine manuals and view the results in a user-friendly interface.
+This repository contains the implementation of a Search Application that allows users to search for machine manuals and view the results in a user-friendly interface. The User can upload the scanned pdfs as well as the png files and can search for machine manuals.
 
 ## Features
 
@@ -12,19 +12,24 @@ This repository contains the implementation of a Search Application that allows 
 ## Project Structure
 
 ```
-.
-├── src
-│   ├── components
-│   │   ├── Navbar.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Background.jsx
-│   │   ├── SearchInterface.jsx
-│   │   └── ResultsDisplay.jsx
-│   ├── pages
-│   │   └── Search.jsx
-│   └── App.jsx
-└── public
-    └── index.html
+|──backend
+    |──uploads/
+    |──app.py
+    |──ocr.py
+    |──config.py
+|──client
+    ├── src
+    │   ├── components
+    │   │   ├── Navbar.jsx
+    │   │   ├── Footer.jsx
+    │   │   ├── Background.jsx
+    │   │   ├── SearchInterface.jsx
+    │   │   └── ResultsDisplay.jsx
+    │   ├── pages
+    │   │   └── Search.jsx
+    │   └── App.jsx
+    └── public
+        └── index.html
 ```
 
 ## Installation
@@ -33,18 +38,25 @@ This repository contains the implementation of a Search Application that allows 
 
    ```bash
    git clone https://github.com/Garvit-Jhalani/DocFinder.git
-   cd search-application
+   cd DocFinder
+   cd client/-
+   
+   cd backend/-
    ```
 
 2. Install dependencies:
 
    ```bash
    npm install
+   
+   pip install
    ```
 
 3. Start the development server:
    ```bash
    npm start
+   
+   python app.py
    ```
 
 ## Usage
@@ -69,6 +81,10 @@ Ensure the backend server is running and accessible at the specified URL.
 - **Axios**: For making HTTP requests to the backend.
 - **Tailwind CSS**: For styling the components.
 - **React-Toastify**: For displaying notifications.
+- **Tesseract OCR**: For fetching details from scanned pdfs.
+- **FuzzyWuzzy**: For search functionality via match score.
+- **MongoDb**: For storing Data.
+- **Auth0**: For login and signup.
 
 ## Error Handling
 
