@@ -1,4 +1,4 @@
-# Search Application
+# DocFinder
 
 This repository contains the implementation of a Search Application that allows users to search for machine manuals and view the results in a user-friendly interface.
 
